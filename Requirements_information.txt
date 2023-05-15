@@ -1,0 +1,44 @@
+pip install virtualenv
+
+step 1: C:\Users\Vivek\AppData\Local\pypa\virtualenv\Project_py
+step 2: virtualenv  venv
+step 3: pip install playwright pandas openpyxl
+step 4: install chromium
+step 5: requirement 
+        xmlfile==1.1.0
+        greenlet==2.0.1
+        numpy==1.24.2
+        openpyxl==3.1.1
+        pandas==1.5.3
+        playwright==1.30.0
+        pyee==9.0.4
+        python-dateutil==2.8.2
+        pytz==2022.7.1
+        six==1.16.0
+        typing_extensions==4.5.0
+
+step 6: pip install dataclasses
+
+step 7: python example
+
+
+Xpath: 2 types :-->i) Absolute path :ex:  /html/body/div[1]/div[3]/..../input
+
+                -->ii)Relative path :ex:  //input[@id='abcd']
+
+What is Playwright?
+Playwright is the latest entrant into the array of frameworks (e.g., Selenium, Cypress, etc.) available for web automation testing. 
+It enables fast and reliable end-to-end testing for modern web apps.
+
+Q-Locators
+Playwright’s locators provide unique & simple ways to find elements on websites built using modern web frameworks. 
+Later in this Playwright for web scraping tutorial, we will deep dive into Playwright’s locators and why they
+ make life so much easier.
+
+ https://www.lambdatest.com/blog/playwright-for-web-scraping/
+
+ Playwright doesn't provide a built-in count() method directly on the locator object. 
+ Instead, you can achieve the same result by using the len() function on the list of
+ elements returned by the locator.
+
+ C:\Users\Vivek\AppData\Local\pypa\virtualenv\Project_py
